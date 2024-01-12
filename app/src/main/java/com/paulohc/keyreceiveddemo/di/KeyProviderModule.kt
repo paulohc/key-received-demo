@@ -11,7 +11,7 @@ import okhttp3.MediaType.Companion.toMediaType
 import retrofit2.Retrofit
 import javax.inject.Singleton
 
-private const val BASE_URL = "http://10.0.2.2:8080"
+private const val BASE_URL = "https://key-provider-demo.onrender.com"
 
 @Module
 @InstallIn(SingletonComponent::class)
